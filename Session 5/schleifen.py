@@ -2,7 +2,7 @@
 # while
 
 
-liste = [1,2,3,4,5,6]
+liste = [1, 2, 3, 4, 5, 6]
 
 for zahl in liste:
     print(zahl)
@@ -13,3 +13,8 @@ for zahl in liste:
 zaehler = 0
 while zaehler < 100:
     print(zaehler)
+    zaehler += 1
+    
+while True:
+    print("ich wurde ausgeführt")
+    break
