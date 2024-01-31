@@ -15,6 +15,10 @@ xpaths = {
     "time_to_xpath": "//input[@id='ctl00_Content_RdpTimeTo_dateInput']",
     "book_button": "//input[@id='ctl00_Content_BtnSave']",
     "book_button2": "//input[@value='Speichern']",
+    "booking_iframe": "//iframe",
+    "place_id_bookable": ".//td[@class='bg-success']",
+    "buchungsplatz": "//ul[@id='RcbBereich_listbox']/li[2]",
+    "book_selected_button": ".//a[contains(text(), 'Buchen')]",
 
 }
 
@@ -28,6 +32,7 @@ identifier = {
 
 links = {
     "myportal_login": "https://myportal-websso.corp.telekom.de/login/?target=https://myportal-websso.corp.telekom.de:443/websso_linkpage/websso_linkpage.jsp",
+    "chromedriver_json": "https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json",
 }
 
 
@@ -40,4 +45,10 @@ envs = {
     "place_id": "B1.80-009",
     "work_from": "06:00",
     "work_until": "20:00",
+    "delta": 14,                        # wie weit im vorraus buchen ?
+}
+
+proxies = {
+    "http": "http://sia-lb.telekom.de:8080/",
+    "https": "http://sia-lb.telekom.de:8080/",
 }
