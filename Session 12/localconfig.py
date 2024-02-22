@@ -42,7 +42,7 @@ german_months = {"Januar": 1, "Februar": 2, "März": 3, "April": 4, "Mai": 5, "J
 
 
 envs = {
-    "place_id": "B1.80-009",
+    "place_id": "E43-003",
     "work_from": "06:00",
     "work_until": "20:00",
     "delta": 14,                        # wie weit im vorraus buchen ?
